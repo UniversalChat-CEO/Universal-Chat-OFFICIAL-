@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Universal Chat — Home</title>
+  <meta name="description" content="Universal Chat: community, eventi e collaborazioni con stile cosmico." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font: Orbitron (titoli) + Poppins (testo) -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪐</text></svg>">
+</head>
+<body data-page="home">
+  <div class="stars"></div>
+  <div class="twinkle"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html"><span>Universal</span> Chat</a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="regole.html" class="nav-link">Regole</a>
+      <a href="eventi.html" class="nav-link">Eventi</a>
+      <a href="collab.html" class="nav-link">Collab</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero glass">
+      <h1 class="title-chrome">Benvenuto</h1>
+      <p class="subtitle">Sei atterrato in Universal Chat — la costellazione dove creatività, gaming e community si incontrano.</p>
+      <div class="counter-wrap">
+        <div class="counter-label">Visite totali</div>
+        <div class="counter" id="visitorCount" aria-live="polite">—</div>
+      </div>
+      <a class="btn-chrome" href="#about">Scopri di più</a>
+    </section>
+
+    <section id="about" class="grid two">
+      <article class="card glass">
+        <h2 class="h-chrome">Cos’è Universal Chat?</h2>
+        <p>
+          Universal Chat è il nostro spazio orbitale: un hub per chi ama condividere idee, partecipare a eventi
+          tematici, trovare compagni di squadra e collaborare a progetti creativi. Che tu sia un creator,
+          un gamer o semplicemente curioso, qui troverai costellazioni di persone con cui brillare.
+        </p>
+        <p class="muted">
+          Vibrazioni positive, zero drama: costruiamo un universo accogliente, un messaggio alla volta.
+        </p>
+      </article>
+
+      <aside class="card glass">
+        <h2 class="h-chrome">I nostri Social</h2>
+        <ul class="social-list">
+          <li><a class="social" target="_blank" rel="noopener" href="https://www.instagram.com/universa_chat?igsh=MTF6NmJ3ZG9kdWxhdg==">Instagram</a></li>
+          <li><a class="social" target="_blank" rel="noopener" href="https://www.tiktok.com/@universal.chat0?_t=ZN-8zMc3TQH0">TikTok</a></li>
+          <li><a class="social" target="_blank" rel="noopener" href="https://discord.gg/xCSRapv7">Discord</a></li>
+        </ul>
+        <a class="btn-outline" target="_blank" rel="noopener" href="https://discord.gg/xCSRapv7">Unisciti al server</a>
+      </aside>
+    </section>
+
+    <section class="banner glass">
+      <p><strong>Tip:</strong> Dai un’occhiata agli <a href="eventi.html">Eventi</a> per partecipare alle prossime missioni spaziali della community!</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <p class="brand-sm"><span>Universal</span> Chat</p>
+      <p class="foot-note">Grazie per averci visitato — ci rivediamo tra le stelle. ✨</p>
+      <nav class="foot-nav">
+        <a href="index.html">Home</a>
+        <a href="regole.html">Regole</a>
+        <a href="eventi.html">Eventi</a>
+        <a href="collab.html">Collab</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
