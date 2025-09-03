@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Universal Chat — Collaborazioni</title>
+  <meta name="description" content="Collaborazioni e partner di Universal Chat." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="collab">
+  <div class="stars"></div>
+  <div class="twinkle"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html"><span>Universal</span> Chat</a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="regole.html" class="nav-link">Regole</a>
+      <a href="eventi.html" class="nav-link">Eventi</a>
+      <a href="collab.html" class="nav-link">Collab</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="title-chrome">Collaborazioni</h1>
+    <p class="muted">Crediamo nelle sinergie che fanno esplodere supernove di creatività.</p>
+
+    <div class="cards grid two">
+      <article class="card glass">
+        <h3 class="h-chrome">Partner Creators</h3>
+        <p>Streamer, illustratori, musicisti e dev che condividono i nostri valori. Spotlight mensile e takeover del server.</p>
+        <ul class="bullet">
+          <li>Guest stream e Q&A</li>
+          <li>Workshop pratici</li>
+          <li>Giveaway in collaborazione</li>
+        </ul>
+      </article>
+
+      <article class="card glass">
+        <h3 class="h-chrome">Community & Brand</h3>
+        <p>Progetti con server amici e brand attenti alla community: eventi congiunti, cross-posting e risorse condivise.</p>
+        <ul class="bullet">
+          <li>Eventi crossover</li>
+          <li>Mentorship e networking</li>
+          <li>Pacchetti sponsor etici</li>
+        </ul>
+      </article>
+    </div>
+
+    <section class="cta glass">
+      <h2 class="h-chrome">Vuoi collaborare con noi?</h2>
+      <p>Scrivici su <a target="_blank" rel="noopener" href="https://discord.gg/xCSRapv7">Discord</a> o manda una proposta con portfolio e idee.</p>
+      <a class="btn-chrome" target="_blank" rel="noopener" href="https://discord.gg/xCSRapv7">Parliamone</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <p class="brand-sm"><span>Universal</span> Chat</p>
+      <p class="foot-note">Alla prossima orbita: grazie per essere parte della costellazione! 💫</p>
+      <nav class="foot-nav">
+        <a href="index.html">Home</a>
+        <a href="regole.html">Regole</a>
+        <a href="eventi.html">Eventi</a>
+        <a href="collab.html">Collab</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
