@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Universal Chat — Eventi</title>
+  <meta name="description" content="Eventi personalizzati della community Universal Chat." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="eventi">
+  <div class="stars"></div>
+  <div class="twinkle"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html"><span>Universal</span> Chat</a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="regole.html" class="nav-link">Regole</a>
+      <a href="eventi.html" class="nav-link">Eventi</a>
+      <a href="collab.html" class="nav-link">Collab</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="title-chrome">Eventi Personalizzati</h1>
+    <p class="muted">Missioni spaziali in arrivo. Proponi anche tu un evento sul nostro Discord!</p>
+
+    <div class="cards grid three">
+      <article class="card glass">
+        <h3 class="h-chrome">Nebula Night</h3>
+        <p>Serata chill con musica lo-fi, showcase dei progetti e micro-talk da 5 minuti.</p>
+        <div class="meta"><span>Ogni 2° venerdì del mese</span> • <span>21:30</span></div>
+        <a class="btn-outline" target="_blank" rel="noopener" href="https://discord.gg/xCSRapv7">Partecipa</a>
+      </article>
+
+      <article class="card glass">
+        <h3 class="h-chrome">Galaxy Jam</h3>
+        <p>Mini game jam di 48 ore: team casuali, tema a sorpresa e premi della community.</p>
+        <div class="meta"><span>Prossima edizione</span> • <span>Annuncio su Discord</span></div>
+        <a class="btn-outline" target="_blank" rel="noopener" href="https://discord.gg/xCSRapv7">Iscriviti</a>
+      </article>
+
+      <article class="card glass">
+        <h3 class="h-chrome">Comet Clash</h3>
+        <p>Torneo rapido (best of 3) su giochi scelti dalla community. Fair play obbligatorio!</p>
+        <div class="meta"><span>Mensile</span> • <span>Iscrizioni limitate</span></div>
+        <a class="btn-outline" target="_blank" rel="noopener" href="https://discord.gg/xCSRapv7">Unisciti</a>
+      </article>
+    </div>
+
+    <section class="banner glass">
+      <p>Hai un’idea? <strong>Lancia la tua proposta</strong> nel canale #proposte-eventi su Discord.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <p class="brand-sm"><span>Universal</span> Chat</p>
+      <p class="foot-note">Ci vediamo al prossimo evento… a velocità warp! 🚀</p>
+      <nav class="foot-nav">
+        <a href="index.html">Home</a>
+        <a href="regole.html">Regole</a>
+        <a href="eventi.html">Eventi</a>
+        <a href="collab.html">Collab</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
