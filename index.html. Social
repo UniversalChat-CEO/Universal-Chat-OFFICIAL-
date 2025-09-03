@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Chat</title>
+  <!-- Font carino da Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Icone (Font Awesome CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden;
+      font-family: 'Poppins', sans-serif;
+      color: green;
+      text-align: center;
+    }
+
+    /* Sfondo spaziale animato */
+    body::before {
+      content: "";
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: black url('https://i.ibb.co/ZYW3VTp/star-bg.png') repeat;
+      background-size: contain;
+      animation: moveStars 60s linear infinite;
+      z-index: -1;
+    }
+    @keyframes moveStars {
+      from { background-position: 0 0; }
+      to { background-position: 10000px 10000px; }
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-bottom: 2px solid green;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: bold;
+      color: green;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+    p {
+      font-size: 18px;
+      color: green;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background: green;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover { background: darkgreen; }
+
+    /* Pulsanti Social */
+    .social-section {
+      margin-top: 40px;
+    }
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 10px;
+      padding: 12px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .social-link i {
+      font-size: 20px;
+    }
+    .social-link:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(255,255,255,0.5);
+    }
+
+    /* Stili cromatici */
+    .instagram {
+      background: linear-gradient(45deg, fuchsia, red);
+    }
+    .tiktok {
+      background: linear-gradient(45deg, black, #1DA1F2);
+    }
+    .discord {
+      background: linear-gradient(45deg, purple, blue);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.7);
+      font-size: 14px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BENVENUTO SUL SITO <span class="highlight">Universal Chat</span></h1>
+  </header>
+
+  <main>
+    <p>Questa è la pagina ufficiale di <span class="highlight">Universal Chat</span> 🌌</p>
+    <button onclick="alert('Grazie per aver visitato Universal Chat!')">Entra</button>
+
+    <!-- Sezione Social -->
+    <div class="social-section">
+      <h2 style="color:green;">Seguici sui social 🌍</h2>
+
+      <a class="social-link instagram" href="https://www.instagram.com/universa_chat?igsh=MTF6NmJ3ZG9kdWxhdg==" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+
+      <a class="social-link tiktok" href="https://www.tiktok.com/@universal.chat0?_t=ZN-8zMc3TQH0" target="_blank">
+        <i class="fab fa-tiktok"></i> TikTok
+      </a>
+
+      <a class="social-link discord" href="https://discord.gg/fUQJQrfc" target="_blank">
+        <i class="fab fa-discord"></i> Discord
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 - <span class="highlight">Universal Chat</span>
+  </footer>
+</body>
+</html>
