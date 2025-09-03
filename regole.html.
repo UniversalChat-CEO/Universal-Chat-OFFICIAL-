@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Universal Chat — Regole</title>
+  <meta name="description" content="Regole della community di Universal Chat." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="regole">
+  <div class="stars"></div>
+  <div class="twinkle"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html"><span>Universal</span> Chat</a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="regole.html" class="nav-link">Regole</a>
+      <a href="eventi.html" class="nav-link">Eventi</a>
+      <a href="collab.html" class="nav-link">Collab</a>
+    </nav>
+  </header>
+
+  <main class="container narrow">
+    <h1 class="title-chrome">Regole della Community</h1>
+    <p class="muted">Siamo una galassia inclusiva. Ecco il nostro codice orbitale:</p>
+
+    <ol class="rules glass">
+      <li><strong>Rispetto prima di tutto:</strong> nessun insulto, spam o discriminazione.</li>
+      <li><strong>Zero spoiler non marcati:</strong> usa i tag spoiler quando serve.</li>
+      <li><strong>Contenuti sicuri:</strong> niente materiale NSFW o illegale.</li>
+      <li><strong>Promozioni ok (con classe):</strong> canali dedicati, massimo 1 al giorno.</li>
+      <li><strong>Ascolto attivo:</strong> aiutiamoci a vicenda, valorizziamo le idee altrui.</li>
+      <li><strong>Privacy:</strong> non condividere dati sensibili tuoi o di terzi.</li>
+      <li><strong>Staff:</strong> le decisioni dei moderatori vanno rispettate.</li>
+    </ol>
+
+    <div class="callout glass">
+      <p>Hai dubbi? Apri un ticket su <a target="_blank" rel="noopener" href="https://discord.gg/xCSRapv7">Discord</a> e lo risolviamo in velocità.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <p class="brand-sm"><span>Universal</span> Chat</p>
+      <p class="foot-note">Grazie per il fair play: insieme brilliamo di più. 🌟</p>
+      <nav class="foot-nav">
+        <a href="index.html">Home</a>
+        <a href="regole.html">Regole</a>
+        <a href="eventi.html">Eventi</a>
+        <a href="collab.html">Collab</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
